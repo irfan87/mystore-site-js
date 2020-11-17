@@ -1,7 +1,5 @@
 const ProductScreen = {
-	render: () => {
-		return `<div>Product Screen</div>`;
-	},
+	render: () => '<div>Product Screen</div>',
 };
 
 export default ProductScreen;

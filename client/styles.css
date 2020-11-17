@@ -28,7 +28,7 @@ a:hover {
 
 .grid__container {
 	display: grid;
-	grid-template-areas: "header" "main" "footer";
+	grid-template-areas: 'header' 'main' 'footer';
 	grid-template-columns: 1fr;
 	grid-template-rows: 5rem 1fr 5rem;
 	height: 100%;
@@ -109,4 +109,15 @@ footer {
 
 .product__price {
 	font-size: 2rem;
+}
+
+/* Rating */
+.rating {
+	color: #ffc000;
+	font-size: 1.8rem;
+}
+
+.rating span:last-child {
+	color: #444444;
+	font-size: 1.4rem;
 }

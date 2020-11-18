@@ -20,6 +20,7 @@ const router = async () => {
 	const main = document.querySelector('#main__container');
 
 	main.innerHTML = await screen.render();
+	if (screen.after_render) await screen.after_render();
 };
 
 window.addEventListener('load', router);

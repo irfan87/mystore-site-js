@@ -26,6 +26,26 @@ a:hover {
 	color: #f08040;
 }
 
+button {
+	font: 1.6rem Helvetica;
+	padding: 1rem;
+	border: 0.1rem #808080 solid;
+	border-radius: 0.5rem;
+	cursor: pointer;
+}
+
+button:hover {
+	border: 0.1rem #404040 solid;
+}
+
+button.primary {
+	background-color: #f0c040;
+}
+
+.fw {
+	width: 100%;
+}
+
 .grid__container {
 	display: grid;
 	grid-template-areas: 'header' 'main' 'footer';
@@ -120,4 +140,53 @@ footer {
 .rating span:last-child {
 	color: #444444;
 	font-size: 1.4rem;
+}
+
+.content {
+	padding: 1rem;
+}
+
+/* Product Details */
+.details {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	flex-wrap: wrap;
+}
+
+.details__image {
+	flex: 2 1 60rem;
+}
+
+.details__image img {
+	max-width: 60rem;
+	width: 100%;
+}
+
+.details__info,
+.details__actions {
+	flex: 1 1 30rem;
+}
+
+.details__info ul,
+.details__actions ul {
+	padding: 0;
+	list-style-type: none;
+}
+
+.details__info h1 {
+	font-size: 2rem;
+	margin: 0;
+}
+
+.details__info li,
+.details__actions li {
+	margin-bottom: 1rem;
+}
+
+.details__actions {
+	border: 0.1rem #808080 solid;
+	border-radius: 0.5rem;
+	background-color: #f8f8f8;
+	padding: 1rem;
 }

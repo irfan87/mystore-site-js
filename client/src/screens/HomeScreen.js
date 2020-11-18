@@ -28,7 +28,7 @@ const HomeScreen = {
               <div class="product__name">
                   <a href="/#/product/${product._id}">${product.name}</a>
 							</div>
-							<div className="product__rating">
+							<div class="product__rating">
 								${Rating.render({
 									value: product.rating,
 									text: `${product.numReviews} reviews`,

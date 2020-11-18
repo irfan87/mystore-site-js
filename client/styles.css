@@ -46,6 +46,16 @@ button.primary {
 	width: 100%;
 }
 
+.success {
+	color: #215a21;
+	font-weight: 600;
+}
+
+.danger {
+	color: #c04040;
+	font-weight: 600;
+}
+
 .grid__container {
 	display: grid;
 	grid-template-areas: 'header' 'main' 'footer';
